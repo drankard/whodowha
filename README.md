@@ -1,4 +1,6 @@
-# tester
+# whodowha
+
+[![Build Status](https://travis-ci.org/drankard/whodowha.svg?branch=master)](https://travis-ci.org/drankard/whodowha)
 
 A Clojure library designed to ... well, that part is up to you.
 
