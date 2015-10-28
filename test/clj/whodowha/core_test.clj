@@ -1,6 +1,6 @@
-(ns tester.core-test
+(ns whodowha.core-test
   (:require [clojure.test :refer :all]
-            [tester.core :refer :all]))
+            [whodowha.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

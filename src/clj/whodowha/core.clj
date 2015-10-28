@@ -1,4 +1,4 @@
-(ns tester.core)
+(ns whodowha.core)
 
 (defn foo
   "I don't do a whole lot."
