@@ -1,3 +1,3 @@
-# Introduction to clj.tester
+# Introduction to whodowha
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
