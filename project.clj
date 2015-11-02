@@ -17,4 +17,5 @@
 
   :plugins [[lein-ring "0.9.7"]]
 
+  :profiles {:uberjar {:aot :all}}
   )
