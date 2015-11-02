@@ -16,6 +16,7 @@
          :open-browser? false}
 
   :plugins [[lein-ring "0.9.7"]]
-
-  :profiles {:uberjar {:aot :all}}
+  
+  :profiles {:uberjar {:aot :all
+                       :main whodowha.system}}
   )
