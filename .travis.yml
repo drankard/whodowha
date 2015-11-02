@@ -1,1 +1,9 @@
 language: clojure
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: ioxXMv1aFyOWg8iOVfK4RL6RdVXda0ji+i4sv+fI0pfP04hLxMEEehHKM8iKpQyTTWrTkiCJwSejGc0LNX3kQHe9PqH2lcSnRFiyXJ41PRAnYgsLQ+Vkp1rrfB+//Egu73swlr5O17cYCJtLRF8SMxFKXQlnACtnmDu9Dznm5D//D6JrByFopYQ4KwdKgATugxbyAC5pJLZzwjWHYA8751LoOcvMwGBXtJKFQSWJQS1MdkHnE3j6iU3UV93ewcUcquh12fsbFE2d/l3DJJj7KGiER5ka7wZ330l5Q/gwLSxj4DXF2wIBhfy6OEiScgAT7JhwkNST6f+i18dQ/bhS6LzFjNW92pA1X8juFo8spNis+rXc3fB4hMXyMHInX4j2Xe8KH5L7y0Y3lduzXN4bYlE+7BntWvjqOh/g3oOP8Y8hrJUD6mQtVkZ+e53prnixAFReLFOJcdRjc7CDwiLaX9oKLrskfowl5no5bfr4feRS2MEwLifwt0odbPoid5QSqOaHF/+gPaHjIF53ZNI38YObTG/ToTFRTjci6PVZo5qWEJYVHfo6LqtyYJMB6uLac1lKZKMq44cGn3RBM/+4AZUR+x/QB0pJcEgJOPt5/z1mo7ZFwkyXMzkBzRzODMpNPT2OzDExP1xItrJTvYxxl13vTWViHBdb4h42ea0ASmg=
+  app:
+      master: whodowha-development
+      production: whodowha-production
