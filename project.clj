@@ -17,6 +17,7 @@
 
   :plugins [[lein-ring "0.9.7"]]
   :uberjar-name "whodowha.jar"
+  :min-lein-version "2.0.0"
   :profiles {:uberjar {:aot :all
                        :main whodowha.system}}
   )
