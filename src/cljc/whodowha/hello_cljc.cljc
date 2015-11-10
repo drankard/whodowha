@@ -1,4 +1,4 @@
-(ns cljc.whodowha.hello)
+(ns whodowha.hello-cljc)
 
 (defn hello-cljc []
   (println "Hello cljc"))
