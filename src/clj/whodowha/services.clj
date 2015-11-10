@@ -14,7 +14,7 @@
 
 (defroutes handler
            (GET ["/ping"] []
-                (str "pong")))
+                (str "pong pong")))
 
 (def app
  (->
