@@ -9,6 +9,7 @@
  (-> #'app ))
 
 (defn start-server [options]
+
  (reset! server
          (serve (get-handler) options))
  (println (str "You can view the site at http://localhost:" (:port options))))
@@ -21,7 +22,8 @@
 (defn -main
  ([port]
   (start-server
-   {:port (Integer/parseInt port)
+   {
+    ;;:port (Integer/parseInt port)
     :init init
     :destroy destroy
     :auto-reload?  false

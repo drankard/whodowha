@@ -2,16 +2,15 @@
 
 [![Build Status](https://travis-ci.org/drankard/whodowha.svg?branch=master)](https://travis-ci.org/drankard/whodowha)
 
-Hellow
-A Clojure library designed to ... well, that part is up to you.
+## profiles
+ clj
+ cljs
 
 ## Usage
 
-FIXME
+lein with-profile clj ring server 8000
+
 
 ## License
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright Mig ! © 2015

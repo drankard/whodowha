@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -cp target/whodowha.jar clojure.main -m whodowha.system $PORT
+web: java $JVM_OPTS -cp target/whodowha.jar clojure.main -m whodowha.system

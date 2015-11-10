@@ -1,4 +1,6 @@
 language: clojure
+script: lein with-profile clj do clean, compile, compile :all
+
 
 deploy:
   provider: heroku
