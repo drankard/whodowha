@@ -21,20 +21,20 @@
   :uberjar-name "whodowha.jar"
   :min-lein-version "2.0.0"
 
-  :profiles {:clj     {:source-paths ["src/clj"]
-                       :test-paths   ["test/clj"]}
+  :source-paths ["src/clj"]
+  :test-paths   ["test/clj"]
 
-             :cljs    {:dependencies [[org.clojure/clojurescript "1.7.170"]
+  :profiles {:cljs    {:dependencies [[org.clojure/clojurescript "1.7.170"]
                                       [lein-cljsbuild "1.1.1"]]
 
                        :plugins      [[lein-cljsbuild "1.1.1"]]
                        :cljsbuild
                                      {:builds
-                                      {:dev {:source-paths ["src/cljs" "test/cljs"]
+                                      {:dev {:source-paths ["src/cljs" "test/cljc" "test/cljs"]
                                              :compiler     {:output-to    "target/whodowha.js"
                                                             :pretty-print true}}}}}
              :uberjar {:aot  :all
                        :main whodowha.system
-                       ;; :hooks [leiningen.cljsbuild]
+                       :hooks [leiningen.cljsbuild]
                        }}
   )

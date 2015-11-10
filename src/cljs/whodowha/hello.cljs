@@ -1,4 +1,4 @@
 (ns whodowha.hello)
 
-(defn add [x y]
-      (+ x y))
+(defn hello-cljs []
+      (println "hello-cljs"))
