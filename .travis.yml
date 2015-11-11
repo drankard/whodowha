@@ -6,5 +6,6 @@ deploy:
   api_key:
     secure: bVePIgAxH061Uef/OwBp0N0bU1Ze4aH62hanTsvcAJ5i4LthlX1ug78y4VAYpe4PJFePMNgj9TMWFKASvflarHb6Vn34nFJ7ZtWcjMwXjjEgratN/ChXsRkr+SyA0gxvEtaQDc7vtEo62mwA5iZwDaNKuRLa3PAqvkR9L82X8KqUiZkiYOKUg7o8VFObaOEu5yhXPr8h6HiUPbf+YvUFsv7lu+Mvlpz012oiTJ7V3c58+5joZOzFbml1SwYdAivIQJ9HbahLH4SiaWpA67XpotZHMUOrsaGUKM8Aqs5rZnxyQAIPPSDqTctYO4YcWiHUi+Gbx+h7+pu3Kgxxr6wVIRwfdlDeVfnEWqfjdHbmEOl7jG0vGJJaf7DLD5BM+owACaTKLj7j4yrNEgx7DLbGECCjKX4otl2a7gA5/mGzZgMC9lZpIzmdH8+cf0h+mFIWJaaw4gtOp4hPoDXqnuyQxA5vWjeKgOeSfOd6gCdkgFiHPqHJ2miO/oPPeVQWXJanFXqq+OuWD5Q6uJ9fZn4Qo62d1IHQh8uSrLFtKHPwHt7r88Usu2vXqO9qeF7qbd36H/Gfl/lsReIDD/ovYFUd1gyo/mTgZ3b040MxaCDuSjRul9HpQuc0/wOKPy1gy5/XWpBhBUw51yWXOUZcw0Xj4miGqWzQe5OXkjp9Jm+2fr8=
   file: target/whodowha.jar
+  skip_cleanup: true
   on:
-    repo: drankard/whodowha
+    tags: true
