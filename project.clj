@@ -11,7 +11,9 @@
                  [ring-server "0.4.0"]
                  [compojure "1.4.0"]
                  [cheshire "5.5.0"]
-                 [org.omcljs/om "0.9.0"]]
+                 [org.omcljs/om "0.9.0"]
+                 [prismatic/om-tools "0.3.12"]
+                 [cljs-ajax "0.5.1" :exclusions [org.clojure/clojurescript]]]
 
 
 
