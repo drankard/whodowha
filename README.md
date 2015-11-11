@@ -10,4 +10,4 @@ WhoDoesWhat
 
 Blagh
 
-Copyright © David 2015 
+Copyright © David 2015
