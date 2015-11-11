@@ -1,5 +1,5 @@
 language: clojure
-script: lein do cljsbuild once, clean, compile, compile :all
+script: lein do clean, cljsbuild once, compile, compile :all
 
 
 deploy:
