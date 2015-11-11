@@ -32,7 +32,8 @@
   :uberjar-name "whodowha.jar"
   :min-lein-version "2.0.0"
 
-  :profiles {:dev {:dependencies []
+  :profiles {:dev {:source-paths ["dev"]
+                   :dependencies [[figwheel-sidecar "0.4.0"]]
                    :plugins [[lein-cljsbuild "1.1.0"]
                              [lein-figwheel "0.4.1"]]
                    :cljsbuild {
