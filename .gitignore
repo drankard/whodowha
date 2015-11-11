@@ -12,3 +12,6 @@ pom.xml.asc
 .nrepl-port
 .idea/*
 *.swp
+*.log
+/resources/public/js/compiled
+*.iml
