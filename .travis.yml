@@ -1,14 +1,7 @@
 language: clojure
-script: lein with-profile clj do clean, compile, compile :all
+script: lein do cljsbuild once, clean, compile, compile :all
 
 
-before_deploy:
-  - git config --global user.email "builds@travis-ci.com"
-  - git config --global user.name "Travis CI"
-  - export GIT_TAG=$TRAVIS_BRANCH.$TRAVIS_BUILD_NUMBER
-  - git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
-  - git push -q https://drankard@github.com/drankard/whodowha.git --tags
-  - ls -R
 
 deploy:
   provider: releases
@@ -17,5 +10,5 @@ deploy:
   file: target/whodowha.jar
   skip_cleanup: true
   on:
-    tags: false
+    tags: true
     all_branches: true
